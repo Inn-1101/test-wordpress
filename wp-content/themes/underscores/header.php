@@ -21,7 +21,6 @@
 	<link rel="stylesheet" href="or.css">
 	<?php wp_head(); ?>
 </head>
-	<?php get_template_part( 'partials/content', 'page' ); ?>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
@@ -59,3 +58,9 @@
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
+<!-- Or -->
+	<?php get_template_part( 'template-parts/content', 'or' ); ?>
+<!-- alex -->
+	<?php get_template_part( 'template-parts/content', 'alex' ); ?>
+<!-- inna -->
+	<?php get_template_part( 'template-parts/content', 'inna' ); ?>
